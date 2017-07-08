@@ -5,7 +5,7 @@
       <a href="/"><i class="iconfont">&#xe605;</i>达令</a>
       <a href="#/kind"><i class="iconfont">&#xe72b;</i>分类</a>
       <a href="#/cart"><i class="iconfont">&#xe63f;</i>购物车</a>
-      <a href="#/regist"><i class="iconfont">&#xe61b;</i>注册</a>
+      <a href="#/regist"><i class="iconfont">&#xe61b;</i>我的</a>
     </div>
     
   </div>
