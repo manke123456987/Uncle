@@ -1,16 +1,6 @@
 <template>
-  <div class="regist">
-  <input type="text" ref="username"><br><br>
-  <input type="password" ref="password"><br><br>
-  <button @click="regist4ajax">来呀快活啊</button>
-  <div v-show="$store.state.waiting">正在加载</div>
-  <input type="text" v-model="$store.state.text_todo"><br><br>
-  <button @click="addlist">ヾ(✿ﾟ▽ﾟ)ノ</button>
-  <button @click="getcookies">取cookie</button>
-  <div>{{user}}</div>
-  <ul>
-    <li v-for="item in $store.state.list">{{item}}</li>
-  </ul>
+  <div class="Regist">
+    kind
   </div>
 </template>
 
