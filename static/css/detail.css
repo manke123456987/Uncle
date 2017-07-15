@@ -1,0 +1,242 @@
+/*header*/
+.header{
+  width:100%;
+  height:.9rem;
+  line-height:.9rem;
+  background:#fff;
+  color:#af5bbf;
+}
+.header .back{
+  width: 2.85rem;
+  margin-left:.2rem;
+  display: inline-block;
+}
+.header span{
+  width:3.1rem;
+  font-size:.34rem;
+  color:#000;
+  display: inline-block;
+}
+.header .shop{
+  width:.6rem;
+  font-size:.35rem;
+  display: inline-block;
+}
+
+/*bdm*/
+.bdm{
+  width:100%;
+  height:4.57rem;
+}
+
+/*main*/
+.main{
+  width:100%;
+  height:4.2rem;
+  background:#fff;
+}
+.main .all{
+  width:7.3rem;
+  height:1rem;
+  margin-left:.2rem;
+  margin-bottom: .4rem;
+}
+.main .all .name{
+  width:6.1rem;
+  height:1.3rem;
+  font-size:.3rem;
+  color:#000;
+  margin-top:.3rem;
+  padding-right:.1rem;
+  float: left;
+  border-right:.01rem solid #ccc;
+}
+.main .all .heart{
+  width:1.08rem;
+  height:1.3rem;
+  float: right;
+  margin-top:.3rem;
+}
+.main .all .heart .iconfont{
+  font-size:.6rem;
+  margin-left:.25rem;
+  color:#ccc;
+}
+.main .all .heart span{
+  margin-left:.2rem;
+  text-align: center;
+  color:#ccc;
+  font-size:.16rem;
+}
+.main .price{
+  width:100%;
+  height:.9rem;
+  margin-bottom:.3rem;
+}
+.main .price .a{
+  width:1.5rem;
+  height:.9rem;
+  line-height:.9rem;
+  font-size:.34rem;
+  color:#f0593f;
+  margin-left:.25rem;
+  float:left;
+}
+.main .price .b{
+  width:.89rem;
+  height:.32rem;
+  float:left;
+  margin-top:.25rem;
+  margin-right:.3rem;
+}
+.main .price .c{
+  width:1.5rem;
+  height:.9rem;
+  line-height:.9rem;
+  font-size:.22rem;
+  color:#aaa;
+  float: left;
+}
+.main .price .d{
+  width:.64rem;
+  height:.9rem;
+  line-height:.9rem;
+  font-size:.18rem;
+  color:#aaa;
+  float:left;
+  margin-right:.15rem;
+  text-decoration: line-through;
+}
+.main .price .iconfont{
+  font-size:.28rem;
+  height:.9rem;
+  line-height:.9rem;
+  float: left;
+}
+.main .price .e{
+  width:1.1rem;
+  height:.9rem;
+  line-height:.9rem;
+  font-size:.26rem;
+  color:#f0593f;
+  margin-left:.7rem;
+  float:left;
+}
+
+.main .tie{
+  width:100%;
+  height:.7rem;
+  border-bottom: .01rem solid #ccc;
+}
+.main .tie .t{
+  width:.39rem;
+  height:.37rem;
+  float:left;
+  margin-left:.2rem;
+  margin-right:.1rem;
+}
+.main .tie .word{
+  width:5rem;
+  height:.7rem;
+}
+.main .fan{
+  width:100%;
+  height:.9rem;
+  border-bottom: .01rem solid #ccc;
+}
+.main .fan .f{
+  width:.39rem;
+  height:.37rem;
+  float:left;
+  margin-left:.2rem;
+  margin-top:.27rem;
+  margin-right:.1rem;
+}
+.main .fan .mai{
+  height:.9rem;
+  line-height:.9rem;
+  font-size:.28rem;
+}
+
+/*say*/
+.say{
+  width:100%;
+  height:5.8rem;
+}
+.say .ta{
+  height:.9rem;
+  line-height:.9rem;
+  color:#000;
+  font-size:.22rem;
+  margin-left:.2rem;
+}
+.say .pl{
+  width:6.71rem;
+  height:1.37rem;
+  margin-left:.3rem;
+  margin-bottom:.3rem;
+}
+
+.qiehuan{
+  width:100%;
+  display: flex;
+  height:1rem;
+  line-height:1rem;
+  border-bottom:.01rem solid #ccc;
+}
+.qiehuan li{
+  flex:1;
+  text-align: center;
+  font-size:.3rem;
+}
+
+.a1,.a2,.a3,.a4,.a5,.a6{
+  width:100%;
+}
+
+.hot{
+  width:100%;
+  height:1rem;
+  line-height:1rem;
+  text-align: center;
+  font-size:.38rem;
+  color:#000;
+}
+
+.last .all{
+  width:3.46rem;
+  height:5.9rem;
+  float: left;
+}
+.last .all .b1{
+  width:3.46rem;
+  height:4.57rem;
+  margin-bottom:.2rem;
+}
+.last .all .wenhe{
+  height:.55rem;
+  line-height:.55rem;
+  font-size:.26rem;
+  color:#333333;
+}
+.last .all .double{
+  height:.55rem;
+  line-height:.55rem;
+  font-size:.24rem;
+  color:#666666;
+}
+.last .all .end{
+  width:3.46rem;
+  height:.8rem;
+}
+.last .all .end p{
+  float: left;
+  height:.8rem;
+  line-height:.8rem;
+  color:#f7674d;
+  font-size:.24rem;
+  margin-right:1.7rem;
+}
+.last .all .end .iconfont{
+  float: left;
+}

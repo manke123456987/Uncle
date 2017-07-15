@@ -6,10 +6,9 @@ Vue.use(Vuex)
 // root state object.
 // each Vuex instance is just a single state tree.
 const state = {
-  count: 0,
-  waiting:false,
-  list:["1","2","3"],
-  text_todo:""
+  daling:true,
+  isShow:false
+
 }
 
 // mutations are operations that actually mutates the state.
@@ -18,8 +17,10 @@ const state = {
 // mutations must be synchronous and can be recorded by plugins
 // for debugging purposes.
 const mutations = {
-  updateWaitingFlag (state,{flag}) {
-    state.waiting = flag
+  disappear (state,{daling}) {
+    console.log(daling)
+    state.daling = daling.daling
+    console.log(state.daling)
   },
   addlist (state) {
     state.list.push(state.text_todo)
@@ -30,7 +31,8 @@ const mutations = {
 // asynchronous operations.
 const actions = {
   updateWaitingFlag: ({ commit },flag) => {commit('updateWaitingFlag',{flag:flag})},
-  addlist: ({ commit }) => {commit('addlist')},
+  disappear: ({ commit },daling) => {commit('disappear',{daling:daling})}
+
 }
 
 // getters are functions

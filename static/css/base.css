@@ -1,0 +1,12 @@
+/*公共样式*/
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dt,dd,input,a,img,header,nav,main,section,footer,article,aside,figure,figcaption{padding:0; margin:0;}
+header,nav,main,section,footer,article,aside,figure,figcaption{display:block;}
+ul,ol{list-style:none;}
+input{outline:none;}
+img{border:0;display:block;}
+
+body{font:12px/1.5 "微软雅黑"; color:#989698; }
+a{text-decoration:none; color:#989698; cursor:pointer;}
+a:hover{text-decoration:none; color:#b057c1;}
+
+html,body{height:100%;background:#f6f5f7;}
